@@ -1,0 +1,168 @@
+
+:root {
+
+    --violet: hsl(257, 40%, 49%);
+    --magenta: hsl(300, 69%, 71%);
+
+}
+
+
+*, *::before, *::after {
+
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--violet);
+        font-family: Open-Sans, sans-serif;
+        font-size: 100%;
+        background-image: url(/images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+}
+
+
+
+
+.header {
+
+    margin: 80px;
+}
+
+
+
+.flex-container .content-wrapper {
+
+    display: flex;
+    flex-grow: .2;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4.5rem;
+    /* border: 2px solid black; */
+    margin-right: 300px;
+    width: 1000px;
+   
+}
+
+
+
+
+
+.title {
+
+    font-weight: 600;
+    color: #fff;
+    font-size: 4rem;
+    font-family: Poppins;
+}
+
+.content {
+     
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    width: 100%;
+    padding-right: 100px;
+   
+    
+    
+   
+}
+
+.btn {
+
+    text-decoration: none;
+    color: var(--violet);
+    background-color: #fff;
+    padding: 1.5rem 5rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn:hover {
+
+    background-color: var(--magenta);
+    color: #fff;
+}
+
+.flex-container {
+
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+
+.flex-container .img-wrapper {
+
+        flex-grow: .8;
+        flex-direction: column;
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-end;
+        /* border: 2px solid black; */
+       
+}
+
+.flex-container .mockup {
+
+    
+    background-image: url(/images/illustration-mockups.svg);
+    flex-grow: ;
+    height: 75vh;
+    width: 45vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+   /*  border: 2px solid black; */
+}
+
+
+
+
+
+/* Footer Social media links */
+
+.footer {
+    
+    margin-right: 80px;
+}
+
+.footer ul {
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer img {
+
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: auto;
+    margin: .4rem;
+    padding: .2rem;
+    
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
