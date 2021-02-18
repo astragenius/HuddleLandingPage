@@ -87,10 +87,11 @@ body {
     font-size: 1.1rem;
     margin-top: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
 }
 
 .btn:hover {
-
+    
     background-color: var(--magenta);
     color: #fff;
 }
@@ -137,7 +138,7 @@ body {
 
 .footer {
     
-    margin-right: 80px;
+    margin-right: 200px;
 }
 
 .footer ul {
@@ -151,12 +152,26 @@ body {
 
 .footer img {
 
-    border: 2px solid black;
+    border: 2px solid #fff;
     border-radius: 50%;
     height: 50px;
     width: auto;
     margin: .4rem;
     padding: .2rem;
+   
+    
+}
+
+
+.footer img:hover {
+
+    filter: 
+    invert(0.5)
+    sepia()
+    hue-rotate(230deg)
+    saturate(5)
+    brightness(1);
+
     
 }
 
