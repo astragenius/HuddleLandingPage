@@ -195,7 +195,7 @@ body {
 
 
 
-/* Content on the left site */
+/* === Content on the left site === */
 
 
 .flex-container .img-wrapper {
@@ -254,6 +254,11 @@ body {
 
 
 }
+
+
+
+
+
 
 
 /* Footer Social media links */
@@ -324,5 +329,21 @@ body {
 
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    color: #fff;
+    margin: 0px 0px 5px 0px;
+    
+
+
+}
+.attribution a { 
+    
+    font-weight: bold;
+    text-decoration: none;
+    color:#fff;
+    margin: 0;
+
+}
+
